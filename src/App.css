@@ -23,7 +23,7 @@
   background-color: #61dafb;
 }
 
-.register{
+.register, .product{
   margin-left: 30%;
 }
 
@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.nav-right{
+  text-align: right;
+}
+
 .inputBox{
   display:block;
   margin:25px;
@@ -51,6 +55,13 @@
   border: 1px solid skyblue
 
 
+}
+
+.invalid-input{
+  color:red;
+  margin-top:-20px;
+  display:block;
+  margin-left: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
