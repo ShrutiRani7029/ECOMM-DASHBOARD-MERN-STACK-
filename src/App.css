@@ -57,6 +57,22 @@
 
 }
 
+.pl{
+  text-align:center;
+  margin-top:50px;
+
+}
+
+.pl ul li{
+  display:inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.pl ul{
+  margin:0;
+}
+
 .invalid-input{
   color:red;
   margin-top:-20px;
